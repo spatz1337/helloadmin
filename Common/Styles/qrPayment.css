@@ -1,0 +1,434 @@
+
+.content-wrapper {
+    width: 713px;
+    height: auto;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    display: block;
+    margin: 0 auto;
+    border-color: #dddddd;
+    position: relative;
+    margin-top: 100px;
+    /*border-bottom: 1px solid #DEE3ED;*/
+    border-radius: 10px 10px 0px 0px;
+}
+
+    .content-wrapper .content {
+        text-align: center;
+    }
+
+.content {
+    box-shadow: 0px 5px 23px rgba(34, 41, 67, 0.1);
+    border-radius: 16px;
+    /* padding: 20px;*/
+}
+
+body {
+    height: 100%;
+    text-rendering: optimizeLegibility;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    font-size: 62.5%;
+    line-height: 1;
+    font-family: 'MuseoSans-700', sans-serif;
+    -webkit-transition: 0.2s ease-out;
+    -moz-transition: 0.2s ease-out;
+    -ms-transition: 0.2s ease-out;
+    -o-transition: 0.2s ease-out;
+    background-color: #F5F5F5;
+    color: #424242;
+}
+
+.content-body {
+    margin-top: -90px;
+}
+
+.paymentInformation {
+    margin-top: 21px;
+    width: 712px;
+    padding: 14px;
+    height: 119px;
+    background: #FFFCF6;
+    border-radius: 6px; /* inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#paymentInformationRow, #paymentInformationRow2, #paymentInformationRow3, #paymentInformationRow4 {
+    margin-bottom: -3px !important;
+}
+
+#txtPayerNote {
+    width: 343px;
+    margin-left: -62px;
+}
+
+.paymentInformationLabel {
+    text-align: initial !important;
+    font-weight: 400 !important;
+    color: #222943;
+    opacity: 0.7;
+    font-size: 16px !important;
+}
+
+.transactionInformation {
+    font-weight: 600 !important;
+}
+
+.cardInput {
+    text-align: initial;
+    font-weight: 600;
+}
+
+#cardExpiryMonth, #cardExpiryYear, #cardExpiryMonthEng, #cardExpiryYearEng {
+    width: 169px;
+    margin-left: -30px;
+}
+
+#cardExpiryYear, #cardExpiryYearEng {
+    margin-left: 4px;
+}
+
+#inputCvv2 {
+    width: 170px;
+    margin-left: -214px;
+    display: inline;
+}
+
+#divSubmitBtn {
+    padding: 0px;
+    margin-left: -20px
+}
+
+#paymentHeaderTitle {
+    text-align: initial;
+    margin-left: 10px;
+    padding: 6px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px; /* identical to box height */
+    color: #222943;
+}
+
+#txtPaymentInformation {
+    width: 123px;
+    height: 18px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #222943 !important;
+    margin-left: 4px;
+    padding: 10px;
+}
+
+#paymenthr {
+    border: 1px solid lightgray;
+    margin-top: 0px !important;
+    margin-bottom: 8px !important;
+}
+
+.paymentForm {
+}
+
+#divButtonQR {
+    width: 359px;
+    height: 169px;
+    border: 1px solid lightgray;
+    margin: 0 auto;
+}
+
+#divQR {
+    display: none;
+}
+
+#divImages {
+}
+
+#troyImg {
+    width: 57px;
+    margin-top:5px;
+}
+
+#visaImg {
+    width: 57px;
+    margin-left: -6px;
+    margin-right: 2px;
+}
+
+#mcImg {
+    width: 57px;
+    margin-left: 108px;
+}
+
+#divQRColumn {
+    padding: 15px;
+}
+
+.divtransactionInformation {
+    margin-left: -32px;
+}
+
+#ccCol {
+    margin-left: 12px;
+    border-bottom: 4px solid #870052;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#ccSm {
+    width: 21px;
+    margin-top: -3px;
+    margin-right: 2px;
+}
+
+#qrCol {
+    text-align: left;
+    margin-left: 15px;
+    padding: 5px;
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+#qrSm {
+    width: 21px;
+    margin-top: -3px;
+    margin-right: 2px;
+}
+
+#ccQrRow {
+    margin-top: 12px;
+    font-weight: 600;
+}
+
+#inputCardNo {
+    width: 343px;
+    margin-left: -43px
+}
+
+#inputCardHolderName {
+    width: 343px;
+    margin-left: -43px
+}
+
+#divPaymentInformation {
+    padding: 14px;
+}
+
+#divFooter {
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    height: 65px;
+    left: 0px;
+    background: linear-gradient(90deg, #100D38 0%, #77024E 100%);
+}
+
+#qrButton {
+    background-color: white;
+    border: none;
+    padding: 10px;
+}
+/*
+    #qrButton:hover {
+        background-color: #efefef;
+        width: 133px;
+        height: 168px;
+    }*/
+
+.qrText {
+    margin-top: 13px;
+    font-weight: 600;
+    width: 125px;
+    margin-left: 116px;
+}
+
+#btnPaymentSubmit {
+    background-color: #870052;
+    color: white;
+    float: right;
+    width: 344px;
+    margin-right: 20px;
+}
+
+    #btnPaymentSubmit:hover {
+        background-color: #b41074;
+    }
+
+#QNBLogo {
+    width: 76px;
+    position: fixed;
+    left: 86px;
+    top: -3px;
+}
+
+#divHeader {
+    top: 10px;
+    position: fixed;
+    left: 161px;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+#logohr {
+    margin-top: 59px;
+    border: 2px solid lightgray;
+}
+
+#qrImg {
+    width: 39px;
+    margin-top: 24px;
+}
+
+
+/* Popup container - can be anything you want */
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+    /* The actual popup */
+    .popup .popuptext {
+        visibility: hidden;
+        width: 321px;
+        background-color: #666F85;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 8px 0;
+        position: absolute;
+        z-index: 1;
+        bottom: 125%;
+        left: 50%;
+        margin-left: -171px;
+        margin-bottom: -12px
+    }
+
+        /* Popup arrow */
+        .popup .popuptext::after {
+            content: "";
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            margin-left: -5px;
+            border-width: 5px;
+            border-style: solid;
+            border-color: #555 transparent transparent transparent;
+        }
+
+    /* Toggle this class - hide and show the popup */
+    .popup .show {
+        visibility: visible;
+    }
+
+    .popup .hide {
+    }
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+#info {
+    margin-left: 2px;
+    color: #666F85;
+}
+
+@media screen and (min-width: 1901px) {
+
+    .content {
+        zoom: 0.9;
+    }
+
+    .content-body {
+        margin-top: 35px;
+    }
+
+    #btnPaymentSubmit {
+        margin-right: 60px !important;
+    }
+
+    #inputCvv2 {
+        margin-left: -254px !important;
+    }
+}
+
+@media only screen and (max-width: 1900px) and (min-width: 1601px) {
+
+    .content {
+        zoom: 0.9;
+    }
+
+    .content-body {
+        margin-top: -55px;
+    }
+
+    #btnPaymentSubmit {
+        margin-right: 60px !important;
+    }
+
+    #inputCvv2 {
+        margin-left: -254px !important;
+    }
+}
+
+@media only screen and (max-width: 1600px) and (min-width: 1200px) {
+
+    .content {
+        zoom: 0.9;
+    }
+
+    .content-body {
+        margin-top: -80px;
+    }
+
+    #btnPaymentSubmit {
+        margin-right: 59px;
+    }
+
+    #inputCvv2 {
+        margin-left: -254px;
+    }
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 900px) {
+
+    .content {
+        zoom: 0.8;
+    }
+
+    #btnPaymentSubmit {
+        margin-right: 109px;
+    }
+
+    #inputCvv2 {
+        margin-left: -304px;
+    }
+}
